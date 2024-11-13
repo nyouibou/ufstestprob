@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-// import 'package:ufstestprob/presentation/cartscreen/cartscreen.dart';
 
 class DetailedScreen extends StatefulWidget {
   const DetailedScreen({
@@ -40,22 +39,6 @@ class _DetailedScreenState extends State<DetailedScreen> {
             color: Colors.black,
           ),
         ),
-        actions: [
-          IconButton(
-            onPressed: () {
-              // Navigator.pushReplacement(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: (context) => Cartscreen(),
-              //   ),
-              // );
-            },
-            icon: const Icon(
-              Icons.shopping_bag,
-              color: Colors.black,
-            ),
-          ),
-        ],
       ),
       body: SingleChildScrollView(
         child: Column(

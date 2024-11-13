@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors, sort_child_properties_last
 
 import 'package:flutter/material.dart';
-// import 'package:ufstestprob/presentation/cartscreen/cartscreen.dart';
 import 'package:provider/provider.dart';
 import 'package:ufstestprobprob/presentation/detailedscreen/view/detailedscreen.dart';
 import 'package:ufstestprobprob/presentation/homescreen/controller/homescreencontroller.dart';
@@ -102,22 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.white,
         title: Text("Shop Head"),
         centerTitle: true,
-        actions: [
-          // IconButton(
-          //   onPressed: () {
-          //     // Navigator.pushReplacement(
-          //     //   context,
-          //     //   MaterialPageRoute(
-          //     //     builder: (context) => Cartscreen(),
-          //     //   ),
-          //     // );
-          //   },
-          //   icon: const Icon(
-          //     Icons.shopping_bag,
-          //     color: Colors.black,
-          //   ),
-          // ),
-        ],
+        actions: [],
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
